@@ -4,7 +4,7 @@ const init = async () => {
   try {
     const { bitcoin: { addresses } } = mempoolJS();
     
-    const address = '1wizSAYSbuyXbt9d8JV8ytm5acqq2TorC';
+    const address = '1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK';
     
     const myAddress = await addresses.getAddress({ address });
     console.log(myAddress);
