@@ -14,13 +14,13 @@ const init = async () => {
 
     websocket.wsWantData(ws, ['blocks', 'stats', 'mempool-blocks', 'live-2h-chart']);
 
-    websocket.wsTrackAddress(ws, "1wizSAYSbuyXbt9d8JV8ytm5acqq2TorC");
+    websocket.wsTrackAddress(ws, "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK");
 
     websocket.wsTrackAddresses(ws, [
-      "1wizSAYSbuyXbt9d8JV8ytm5acqq2TorC",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
     ]);
 
-    websocket.wsTrackTransaction(ws, "01313ca0148a1bbe5676e5dd6a84e76f8b39038658bd8c333d3b2d3f7ea6dd08");
+    websocket.wsTrackTransaction(ws, "ffe542ba33388612c72137bd158983de2eabb19cfa8fba76bfe7a3f6520e7f6b");
 
     websocket.wsTrackRbfSummary(ws);
 
